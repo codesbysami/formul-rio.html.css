@@ -1,0 +1,73 @@
+* {
+    margin: 2;
+    padding: 0;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: 0;
+}
+
+body, input, select, textarea, button {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 4px;
+}
+
+.campo label {
+    margin-bottom: 2px;
+    color: #ffffff;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 0.5em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    padding: 0.4em;
+    border: 1px solid #DCDCDC;
+    background: #f1efff;
+    box-shadow: 1px 1px 1px #f1efff;
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #f1efff;
+}
+
+.campo label.checkbox {
+    color: #000000;
+    display: inline-block;
+    margin-right: 3em;
+}
+
+.botao {
+    font-size: 1.5em;
+    border: 0;
+    margin-bottom: 1em;
+    color: #F5FFFA;
+    padding: 0.2em 0.6em;
+}
