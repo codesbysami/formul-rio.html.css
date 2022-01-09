@@ -7,7 +7,7 @@ Iniciante
 
 ### Linguagens:
 HTML (linguagem de marcação)
-CSS (linguagem de estilização)
+<br> CSS (linguagem de estilização)<br>
 
 ### Informações gerais:
 Neste mini projeto foi proposto um formulário com campos básicos feito em HTML e CSS para ser visualizada no navegador.
